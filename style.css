@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #fdfbf7;
+    color: #f894d5;
+    background-color: #f82ebc;
 }
 
 /* Navigation Bar Styling */
@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c5e3b;
+    background-color: #f73558;
     padding: 1rem 2rem;
     color: white;
 }
@@ -39,7 +39,7 @@ body {
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: #f4eae1;
+    background-color: #fe4040;
 }
 
 /* Testimonials Section */
@@ -60,7 +60,7 @@ body {
 
 .testimonial-card span {
     font-weight: bold;
-    color: #2c5e3b;
+    color: #000000;
     display: block;
     margin-top: 0.5rem;
 }
