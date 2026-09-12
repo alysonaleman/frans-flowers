@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #f894d5;
-    background-color: #f82ebc;
+    color: #4a3b4c;
+    background-color: #fff0f5;
 }
 
 /* Navigation Bar Styling */
@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f73558;
+    background-color: #ffb6c1;
     padding: 1rem 2rem;
     color: white;
 }
@@ -19,7 +19,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: #d81b60;
     text-decoration: none;
 }
 
@@ -31,44 +31,51 @@ body {
 }
 
 .nav-links a {
-    color: white;
+    color: #d81b60;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: #fe4040;
+    background-color: #ffe4e1;
+    color: #d81b60;
 }
 
 /* Testimonials Section */
 .testimonials {
     padding: 3rem 2rem;
     text-align: center;
+    background-color: #fff5f8;
 }
 
 .testimonial-card {
-    background: white;
-    border: 1px solid #ddd;
+    background: #ffffff;
+    border: 1px solid #ffc0cb;
     padding: 1.5rem;
     margin: 1rem auto;
     max-width: 500px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2);
 }
 
 .testimonial-card span {
     font-weight: bold;
-    color: #000000;
+    color: #ff69b4;
     display: block;
     margin-top: 0.5rem;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #222;
-    color: white;
+    background-color: #ffb6c1;
+    color: #ffffff;
     text-align: center;
     padding: 2rem;
 }
@@ -89,10 +96,11 @@ footer {
 }
 
 .footer-content a {
-    color: #ccc;
+    color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .footer-content a:hover {
-    color: white;
+    color: #ffe4e1;
 }
